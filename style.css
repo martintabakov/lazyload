@@ -1,0 +1,35 @@
+body {
+    background-color: #e6e6e6;
+}
+
+#gallery {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gallery-item-wrapper {
+    flex: 50%;
+    margin-bottom: 10px;
+}
+
+.gallery-item-wrapper .gallery-img {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: 0 2px 6px 0 #cecece;
+    background-color:#ffffff;
+    margin: 0 auto;
+}
+
+.gallery-item-wrapper .gallery-img img {
+    max-height: 100%;
+}
+
+.gallery-img-title {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+}
